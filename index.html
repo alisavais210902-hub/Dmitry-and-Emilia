@@ -227,8 +227,8 @@
     </div>
 </section>
 
-        <!-- Блок 11. Анкета гостя -->
-        <section class="guest-form" id="guest-form">
+       <!-- Блок 11. Анкета гостя -->
+<section class="guest-form" id="guest-form">
 
     <h2 class="guest-form-title">Анкета гостя</h2>
 
@@ -237,67 +237,20 @@
         Пожалуйста, ответьте на несколько вопросов.
     </p>
 
-    <form class="rsvp-form" id="rsvp-form">
-
-        <label for="guest-name">Ваше имя и фамилия</label>
-        <input
-            type="text"
-            id="guest-name"
-            name="guestName"
-            placeholder="Как к Вам обращаться?"
-            required
-        >
-
-        <fieldset class="rsvp-fieldset">
-            <legend>Сможете разделить с нами этот день?</legend>
-
-            <label class="rsvp-option">
-                <input type="radio" name="attendance" value="Да, с радостью!" required>
-                <span>Да, с радостью!</span>
-            </label>
-
-            <label class="rsvp-option">
-                <input type="radio" name="attendance" value="К сожалению, не получится">
-                <span>К сожалению, не получится</span>
-            </label>
-        </fieldset>
-
-        <fieldset class="rsvp-fieldset">
-            <legend>Что предпочитаете из напитков?</legend>
-
-            <label class="rsvp-option">
-                <input type="radio" name="drink" value="Алкогольные">
-                <span>Алкогольные</span>
-            </label>
-
-            <label class="rsvp-option">
-                <input type="radio" name="drink" value="Безалкогольные">
-                <span>Безалкогольные</span>
-            </label>
-
-            <label class="rsvp-option">
-                <input type="radio" name="drink" value="Всё на Ваш вкус">
-                <span>Всё на Ваш вкус</span>
-            </label>
-        </fieldset>
-
-        <label for="guest-wishes">Пожелания и комментарии</label>
-        <textarea
-            id="guest-wishes"
-            name="wishes"
-            rows="3"
-            placeholder="Если хотите что-то добавить..."
-        ></textarea>
-
-        <button type="submit" class="rsvp-button">
-            Отправить ответ
-        </button>
-
-        <p class="rsvp-message" id="rsvp-message" role="status"></p>
-
-    </form>
+    <div class="yandex-form-embed">
+        <script src="https://forms.yandex.ru/_static/embed.js"></script>
+        <iframe
+            src="https://forms.yandex.ru/u/6ad233a149af47ac7eb7c8e5?iframe=1"
+            frameborder="0"
+            name="ya-form-6ad233a149af47ac7eb7c8e5"
+            title="Ответ на свадебное приглашение"
+            width="100%"
+            style="display: block; width: 100%; min-height: 780px; border: 0;"
+        ></iframe>
+    </div>
 
 </section>
+
 
     </main>
 
