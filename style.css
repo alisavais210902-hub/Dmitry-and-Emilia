@@ -254,7 +254,7 @@ p {
 
 .couple-photo {
     position: relative;
-    top: -110px;
+    top: -90px;
     width: 190%;
     max-width: 560px;
     margin: 0 auto;
@@ -1070,7 +1070,8 @@ background: transparent;
     }
 
     #wedding .names-line {
-        font-size: clamp(38px, 9vw, 52px);
+    font-size: clamp(48px, 14vw, 62px);
+}
     }
 
     #wedding .names-line-second {
