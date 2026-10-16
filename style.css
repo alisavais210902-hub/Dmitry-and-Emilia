@@ -1070,7 +1070,7 @@ background: transparent;
     }
 
     #wedding .names-line {
-    font-size: clamp(48px, 14vw, 62px);
+    font-size: clamp(56px, 15vw, 70px);
 }
     }
 
@@ -1088,7 +1088,7 @@ background: transparent;
         max-width: 60px;
         height: 60px;
     }
-}
+
 
 
 /* ===== Плавные анимации сайта ===== */
