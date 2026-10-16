@@ -1070,7 +1070,7 @@ background: transparent;
     }
 
     #wedding .names-line {
-        font-size: clamp(70px, 9vw, 52px);
+        font-size: clamp(38px, 9vw, 52px);
     }
 
     #wedding .names-line-second {
